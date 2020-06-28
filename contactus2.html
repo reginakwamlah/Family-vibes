@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Keywords" content="CIW, HTML5, uCorp" />
+    <meta name="Description" content="Simple XHTML page for uCorp site" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="contactus/contactus.css" />
+    <title>Welcome to uCorp</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div id="head">
+            <a href="index.html"><img height="65" width="250" src="contactus2/uCorp_logo.png" alt="uCorp Logo"/></a>
+        </div>
+
+        <div id="navbar">
+            <a href="aboutus.html"><img height="52" width="89" src="contactus2/header_button_about-us.jpg" alt="Link goes back to current page." id="aboutus" /></a><a href="contactus.html"><img height="52" width="104" src="contactus2/header_button_contact-us.jpg" alt="Click here to contact us and let us know what you think." id="contactus" /></a><img height="52" width="91" src="contactus2/header_button_products.jpg" alt="Click here to explore the catalog of products we offer." id="products" /><a href="manufacturing.html"><img height="52" width="204" src="contactus2/header_button_manufacturing-process.jpg" alt="Click here to learn about the high-quality manufacturing process that uCorp employs." id="manufacturingprocess" /></a><a href="technology.html"><img height="52" width="112" src="contactus2/header_button_technology.jpg" alt="Click here to discover the advanced technology that goes into each one of our speakers." id="technology" /></a>
+        </div>
+
+    </header>
+
+    <!-- ARTICLE -->
+
+    <article>
+
+      <h2>Contact Us</h2>
+
+    <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+     First Name <br/>
+    <input type="text" name="FirstName" size="40"/>
+     <br/>
+     <br/>
+     last Name <br/>
+   <input type="text" name="LastName" size="40"/>
+     <br/>
+     <br/>
+   Company <br/>
+   <input type="text" name="Company" size="40"/>
+     <br/>
+     <br/>
+  Email Address <br/>
+   <input type="text" name="Email" size="40"/>
+     <br/>
+     <br/>
+ Country <br/>
+   <input type="text" name="Country" size="40"/>
+     <br/>
+     <br/>
+  What days should we contact you?
+<br/>
+<select name="Contactdays" multiple="multiple" size="6">
+    <option>Monday</option>
+    <option>Tuesday</option>
+    <option>Wednesday</option>
+    <option>Thursday</option>
+    <option>Friday</option>
+    <option>Saturday</option>
+    <option>Sunday</option>
+</select>
+<br/>
+<br/>
+ When should we try to contact you
+  <br/>
+  <input type="checkbox" name="Morning" /> Morning
+  <br/>
+  <input type="checkbox" name="Afternoon" /> Afternoon
+  <br/>
+  <input type="checkbox" name="Evening" /> Evening
+  <br/>
+  <br/>
+Would you like to be added to our mailist list 
+<br/>
+  <input type="radio" name="Emaillist" value="yes" checked="checked" />yes
+  <input type="radio" name="Emaillist" value="no" />No
+  <br/>
+  <br>
+  <input type="submit"/>
+ </form>
+<br/>
+
+</body>
+
+</html>
